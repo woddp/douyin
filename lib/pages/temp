@@ -1,0 +1,37 @@
+new Container(
+                    padding: EdgeInsets.only(top: 10.0,bottom: 10.0),
+                    decoration: BoxDecoration(
+                        border: Border(bottom: BorderSide(color:Colors.white,width: 2.0))
+                    ),
+
+new InkWell(
+                    onTap: (){
+                      switchTab(1);
+                    },
+                    child: new Text(
+                      "关注",
+                      style: textStyle,
+                    ),
+                  )
+
+new InkWell(
+                    onTap: (){
+                      switchTab(2);
+                    },
+                    child: new Text(
+                      "消息",
+                      style: textStyle,
+                    ),
+                  )
+
+
+
+                  InkWell(
+                                      onTap: (){
+                                        switchTab(3);
+                                      },
+                                      child: new Text(
+                                        "我",
+                                        style: textStyle,
+                                      ),
+                                    )
